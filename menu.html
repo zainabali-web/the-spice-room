@@ -1,0 +1,447 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Spice Room</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <link rel="stylesheet" href="style1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+  <nav class="navbar bg-body-tertiary">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="imgs/The spice room-logo.png" alt="logo">
+      </a>
+      <ul class="nav justify-content-center custom-nav d-none d-lg-flex">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="menu.html">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact Us</a>
+        </li>
+      </ul>
+       <!-- toogle button -->
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#sideMenu"
+            aria-controls="sideMenu" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+  </nav>
+   <!-- Mobile Side Menu -->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="sideMenu" aria-labelledby="sideMenuLabel">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="sideMenuLabel">Menu</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <ul class="navbar-nav gap-3">
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </div>
+</div>
+  <main>
+    <section class="banner">
+      <div>
+        <h1>Our Delicious Menu</h1>
+        <p>Explore a world of flavors...</p>
+      </div>
+    </section>
+    <div class="container text-center my-4">
+      <a href="#main-course" class="main-btn">Main Course</a>
+      <a href="#starters" class="main-btn">Starters</a>
+      <a href="#desserts" class="main-btn">Desserts</a>
+      <a href="#drinks" class="main-btn">Drinks</a>
+    </div>
+    <div class="container my-5" id="main-course">
+      <h3 class="text-center mb-4">Main Course</h3>
+      <div class="row">
+
+
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img
+              src="https://media.istockphoto.com/id/1169543375/photo/traditional-chicken-biryani-horizontal-photo.webp?a=1&s=612x612&w=0&k=20&c=UaVTcNzHyDU0b4RxEipUBKQJlL1gH1KPHuQUY1Ev1TY="
+              class="card-img-top" alt="Chicken Biryani">
+            <div class="card-body">
+              <h5 class="card-title">Chicken Biryani</h5>
+              <p class="card-text">Traditional spiced rice with tender chicken and aromatic herbs.</p>
+              <p><strong>Rs. 550</strong></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img
+              src="https://plus.unsplash.com/premium_photo-1678897742200-85f052d33a71?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y3JlYW15JTIwYWxmcmVkZG8lMjBwYXN0YXxlbnwwfHwwfHx8MA%3D%3D"
+              class="card-img-top" alt="Creamy Alfredo Pasta">
+            <div class="card-body">
+              <h5 class="card-title">Creamy Alfredo Pasta</h5>
+              <p class="card-text">Rich and creamy Alfredo sauce tossed with fettuccine and topped with herbs.</p>
+              <p><strong>Rs. 850</strong></p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img
+              src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=999&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              class="card-img-top" alt="Classic Beef Burger">
+            <div class="card-body">
+              <h5 class="card-title">Classic Beef Burger</h5>
+              <p class="card-text">Grilled beef patty stacked in a toasted bun with cheese, lettuce, and sauces.</p>
+              <p><strong>Rs. 750</strong></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img
+              src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fE1hcmdoZXJpdGElMjBQaXp6YXxlbnwwfHwwfHx8MA%3D%3D"
+              class="card-img-top" alt="Margherita Pizza">
+            <div class="card-body">
+              <h5 class="card-title">Margherita Pizza</h5>
+              <p class="card-text">Thin-crust pizza with fresh mozzarella, basil, and tomato sauce.</p>
+              <p><strong>Rs. 950</strong></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img
+              src="https://images.unsplash.com/photo-1613626630502-182579c0432c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZnJ5JTIwZmlzaHxlbnwwfHwwfHx8MA%3D%3D"
+              class="card-img-top" alt="Beef Nihari">
+            <div class="card-body">
+              <h5 class="card-title"> Fish </h5>
+              <p class="card-text">Tender fish chunks marinated in Desi spices, grilled to perfection with lemon and
+                herbs.</p>
+              <p><strong>Rs. 680</strong></p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Starter -->
+
+    <div class="container my-5" id="starters">
+      <h3 class="text-center mb-4">Starters</h3>
+      <div class="row">
+
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img
+              src="https://plus.unsplash.com/premium_photo-1683657860906-d49d1bb37aab?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D"
+              class="card-img-top" alt="Chicken wings">
+            <div class="card-body">
+              <h5 class="card-title">Chicken Wings</h5>
+              <p class="card-text"> Crispy chicken wings tossed in spicy sauce, served with a dipping sauce.</p>
+              <p><strong>Rs. 400</strong></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img src="https://cdn.pixabay.com/photo/2023/05/27/13/49/soup-8021567_1280.jpg" class="card-img-top"
+              alt="Soup">
+            <div class="card-body">
+              <h5 class="card-title">Soup</h5>
+              <p class="card-text">Chef’s special soup prepared fresh daily — ask for today’s flavor.</p>
+              <p><strong>Rs. 200</strong></p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img
+              src="https://plus.unsplash.com/premium_photo-1693086420921-3e16e8477759?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              class="card-img-top" alt="Cheese Ball">
+            <div class="card-body">
+              <h5 class="card-title">Cheese Ball</h5>
+              <p class="card-text"> Crispy golden bites with a gooey, cheesy center — perfect with ketchup or garlic
+                mayo.</p>
+              <p><strong>Rs. 350-500</strong></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img
+              src="https://plus.unsplash.com/premium_photo-1695297516142-398762d80f66?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              class="card-img-top" alt="Chicken Samosa">
+            <div class="card-body">
+              <h5 class="card-title">Chicken Samosa</h5>
+              <p class="card-text">Crispy golden pastry filled with spiced minced chicken, onions, and herbs, deep-fried
+                to perfection.</p>
+              <p><strong>Rs.320 (per 2 pieces)</strong></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img src="https://cdn.pixabay.com/photo/2015/06/17/15/48/american-salad-812652_1280.jpg"
+              class="card-img-top" alt="Beef Nihari">
+            <div class="card-body">
+              <h5 class="card-title">American Salad </h5>
+              <p class="card-text">A creamy blend of fresh vegetables tossed in a tangy mayonnaise dressing — a
+                refreshing starter.</p>
+              <p><strong>Rs. 280</strong></p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+
+    <!-- desserts -->
+
+    <div class="container my-5" id="desserts">
+      <h3 class="text-center mb-4">Desserts</h3>
+      <div class="row">
+
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img
+              src="https://images.unsplash.com/photo-1617305855058-336d24456869?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              class="card-img-top" alt="Chocolate Lava Cake">
+            <div class="card-body">
+              <h5 class="card-title">Chocolate Lava Cake</h5>
+              <p class="card-text"> Soft cake filled with warm molten chocolate, served with vanilla ice cream.</p>
+              <p><strong>Rs. 450</strong></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img
+              src="https://images.unsplash.com/photo-1553882299-9601a48ebe6a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8U3RyYXdiZXJyeSUyMENoZWVzZWNha2V8ZW58MHx8MHx8fDA%3D"
+              class="card-img-top" alt="Strawberry Cheesecake">
+            <div class="card-body">
+              <h5 class="card-title">Strawberry Cheesecake</h5>
+              <p class="card-text">Creamy cheesecake topped with fresh strawberries on a biscuit crust.</p>
+              <p><strong>Rs. 750</strong></p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img
+              src="https://images.unsplash.com/photo-1648913370516-4e3bf8f9aee8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE5fHx8ZW58MHx8fHx8"
+              class="card-img-top" alt="Fruit Trifle">
+            <div class="card-body">
+              <h5 class="card-title">Fruit Trifle</h5>
+              <p class="card-text"> Layers of sponge cake, custard, fruits, and jelly.</p>
+              <p><strong>Rs. 450</strong></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img
+              src="https://plus.unsplash.com/premium_photo-1695297516142-398762d80f66?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              class="card-img-top" alt="Chicken Samosa">
+            <div class="card-body">
+              <h5 class="card-title">Chicken Samosa</h5>
+              <p class="card-text">Crispy golden pastry filled with spiced minced chicken, onions, and herbs, deep-fried to perfection.</p>
+              <p><strong>Rs.320 (per 2 pieces)</strong></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img
+              src="https://cdn.pixabay.com/photo/2015/06/17/15/48/american-salad-812652_1280.jpg"
+              class="card-img-top" alt="Beef Nihari">
+            <div class="card-body">
+              <h5 class="card-title">American Salad </h5>
+              <p class="card-text">A creamy blend of fresh vegetables tossed in a tangy mayonnaise dressing — a refreshing starter.</p>
+              <p><strong>Rs. 280</strong></p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div> -->
+
+
+
+
+        <!-- drinks -->
+        <div class="container my-5" id="drinks">
+          <h3 class="text-center mb-4">Drinks</h3>
+          <div class="row">
+
+
+            <div class="col-md-4 mb-4">
+              <div class="card h-100">
+                <img
+                  src="https://plus.unsplash.com/premium_photo-1726804881341-bfc9554ad94f?q=80&w=1091&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  class="card-img-top" alt="Iced Coffee">
+                <div class="card-body">
+                  <h5 class="card-title">Iced Coffee</h5>
+                  <p class="card-text">Cold brewed coffee with milk, sugar, and ice, topped with whipped cream.</p>
+                  <p><strong>Rs. 350</strong></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+              <div class="card h-100">
+                <img
+                  src="https://images.unsplash.com/photo-1579888071069-c107a6f79d82?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Q2FyYW1lbCUyMEljZWQlMjBMYXR0ZXxlbnwwfHwwfHx8MA%3D%3D"
+                  class="card-img-top" alt="Caramel Iced Latte">
+                <div class="card-body">
+                  <h5 class="card-title">Caramel Iced Latte</h5>
+                  <p class="card-text">Espresso with milk, ice, and caramel drizzle.</p>
+                  <p><strong>Rs. 400</strong></p>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-md-4 mb-4">
+              <div class="card h-100">
+                <img src="https://cdn.pixabay.com/photo/2022/04/08/08/17/drink-7118988_1280.jpg" class="card-img-top"
+                  alt="Blue Lagoon Mocktail">
+                <div class="card-body">
+                  <h5 class="card-title">Blue Lagoon Mocktail</h5>
+                  <p class="card-text">Grilled beef patty stacked in a toasted bun with cheese, lettuce, and sauces.</p>
+                  <p><strong>Rs. 550</strong></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img
+              src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fE1hcmdoZXJpdGElMjBQaXp6YXxlbnwwfHwwfHx8MA%3D%3D"
+              class="card-img-top" alt="Margherita Pizza">
+            <div class="card-body">
+              <h5 class="card-title">Margherita Pizza</h5>
+              <p class="card-text">Thin-crust pizza with fresh mozzarella, basil, and tomato sauce.</p>
+              <p><strong>Rs. 950</strong></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img
+              src="https://images.unsplash.com/photo-1613626630502-182579c0432c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZnJ5JTIwZmlzaHxlbnwwfHwwfHx8MA%3D%3D"
+              class="card-img-top" alt="Beef Nihari">
+            <div class="card-body">
+              <h5 class="card-title"> Fish </h5>
+              <p class="card-text">Tender fish chunks marinated in Desi spices, grilled to perfection with lemon and
+                herbs.</p>
+              <p><strong>Rs. 680</strong></p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="text-center my-5">
+              <h5 class="mb-3">Craving more mouth-watering dishes?</h5>
+              <p class="mb-4">Book your table now or contact us for full menu details.</p>
+              <a href="contact.html" class="main-btn">Reserve Now</a>
+            </div>
+  </main>
+
+
+
+
+
+
+  <footer class="footer-custom">
+    <div class="container-fluid px-0">
+      <div class="row text-center text-md-start py-4 px-5">
+
+        <!-- Left Side -->
+        <div class="col-md-4 mb-4">
+          <h5>Got a craving?</h5>
+          <p>Reserve Now</p>
+          <a href="contact.html" class="btn custom-btn">Reserve Your Table</a>
+        </div>
+
+        <!-- Center -->
+        <div class="col-md-4 mb-4 text-center">
+          <h5>Opening Hours</h5>
+          <p>We are open for you</p>
+          <p>Mon–Fri: 12 PM – 12 AM</p>
+          <p>Sat–Sun: 1 PM – 11 PM</p>
+        </div>
+
+        <!-- Right Side -->
+        <div class="col-md-4 mb-4 text-md-end">
+          <h5>Quick Links</h5>
+          <a href="#" class="footer-icon"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="footer-icon"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="footer-icon"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" class="footer-icon"><i class="fab fa-whatsapp"></i></a>
+        </div>
+
+      </div>
+
+      <hr class="bg-white mx-5">
+      <p class="text-center mb-0 pb-3">&copy; 2025 The Spice Room. All rights reserved.</p>
+    </div>
+  </footer>
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
